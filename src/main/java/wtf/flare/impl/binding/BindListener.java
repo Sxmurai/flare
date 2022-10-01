@@ -18,7 +18,7 @@ public class BindListener implements Wrapper {
 
     @EventListener
     public void onEventKey(EventKey event) {
-        if (isNull() || mc.currentScreen != null) {
+        if (isNull() || mc.currentScreen != null || event.getKey() == GLFW.GLFW_KEY_UNKNOWN) {
             return;
         }
 
