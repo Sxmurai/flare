@@ -13,7 +13,6 @@ public class ToggableModule extends Module {
 
         binding = new Binding(BindingDeviceType.KEYBOARD, GLFW.GLFW_KEY_UNKNOWN);
         binding.setInhibitor((b) -> {
-            System.out.println(b.hashCode());
             if (b.getState()) {
                 FlareClient.BUS.subscribe(this);
                 onActivated();

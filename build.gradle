@@ -30,6 +30,10 @@ processResources {
 	}
 }
 
+loom {
+	accessWidenerPath = file("src/main/resources/flare.accesswidener")
+}
+
 tasks.withType(JavaCompile).configureEach {
 	// Minecraft 1.18 (1.18-pre2) upwards uses Java 17.
 	it.options.release = 17

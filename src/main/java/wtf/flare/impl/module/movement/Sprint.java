@@ -1,7 +1,6 @@
 package wtf.flare.impl.module.movement;
 
 import me.bush.eventbus.annotation.EventListener;
-import org.lwjgl.glfw.GLFW;
 import wtf.flare.impl.binding.BindingDeviceType;
 import wtf.flare.impl.event.mc.EventTick;
 import wtf.flare.impl.module.ModuleCategory;

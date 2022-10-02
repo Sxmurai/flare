@@ -1,4 +1,4 @@
-package wtf.flare.core.mixin.input;
+package wtf.flare.core.mixins.impl.input;
 
 import net.minecraft.client.Keyboard;
 import org.spongepowered.asm.mixin.Mixin;

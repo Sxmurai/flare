@@ -1,0 +1,5 @@
+accessWidener	v1	named
+
+Accessible   class   net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractType
+Accessible   class   net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractAtHandler
+Accessible   class   net/minecraft/network/packet/c2s/play/PlayerInteractEntityC2SPacket$InteractTypeHandler

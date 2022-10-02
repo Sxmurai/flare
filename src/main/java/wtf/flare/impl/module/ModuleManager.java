@@ -1,6 +1,8 @@
 package wtf.flare.impl.module;
 
+import wtf.flare.impl.module.combat.Criticals;
 import wtf.flare.impl.module.movement.Sprint;
+import wtf.flare.impl.module.movement.Velocity;
 
 import java.util.*;
 
@@ -11,7 +13,9 @@ public class ModuleManager {
     private final List<Module> moduleList = new ArrayList<>();
 
     public ModuleManager() {
+        register(new Criticals());
         register(new Sprint());
+        register(new Velocity());
     }
 
     private void register(Module module) {

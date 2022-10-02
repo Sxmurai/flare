@@ -1,4 +1,4 @@
-package wtf.flare.core.mixin;
+package wtf.flare.core.mixins.impl;
 
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.network.ClientPlayerEntity;

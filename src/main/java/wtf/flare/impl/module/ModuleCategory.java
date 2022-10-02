@@ -2,10 +2,10 @@ package wtf.flare.impl.module;
 
 public enum ModuleCategory {
     COMBAT("Combat"),
-    EXPLOITS("Exploits"),
     MISCELLANEOUS("Miscellaneous"),
     MOVEMENT("Movement"),
     WORLD("World"),
+    VISUAL("Visual"),
     ACTIVE("Active");
 
     private final String displayName;
